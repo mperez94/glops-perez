@@ -1,13 +1,15 @@
-import Nav from './components/NavBar';
-import Section from './components/Section1';
+
+import Main from './components/Main';
 import Footer from './components/Footer';
+import Header from './components/Header';
+
 
 
 function App (){
     return (
         <>
-        <Nav/>
-        <Section/>
+        <Header />
+        <Main/>
         <Footer/>
         </>
     )
